@@ -1,0 +1,42 @@
+
+.navbar {
+    background-color: $mainColor;
+    transition: top 0.3s;
+}
+
+.navbar-brand {
+    padding-left: 15px;
+}
+
+.navbar-brand {
+    color: azure;
+}
+
+.navbar-brand:hover {
+    background-color: transparent;
+    color: antiquewhite;
+    transition: 1s;
+}
+
+.navbar-toggler {
+    border-color: azure;
+}
+
+.navbar-toggler-icon {
+    border-color: azure;
+}
+
+.nav-list {
+    color: azure;
+    display: flex;
+    font-size: 21px;
+    list-style-type: none;
+    gap: 70px;
+}
+
+
+.link {
+    color: azure;
+    text-decoration: none;
+    text-decoration: none;
+}
