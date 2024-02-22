@@ -1,5 +1,21 @@
-@import "base/reset";
+/*base*/
 @import "base/vars";
+@import "base/reset";
+/*componentes*/
 @import "components/navbar";
-@import "components/footer"
+@import "components/footer";
+/*layout*/
+@import "layout/index";
+@import "layout/reservas";
+@import "layout/servicios";
+@import "layout/contactos";
+@import "layout/galeria";
+@import "layout/mediaqueries";
+
+body {
+    font-family: Oswald, sans-serif, 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+}
+
 

@@ -1,42 +1,37 @@
-
+/*navbar*/
 .navbar {
-    background-color: $mainColor;
+    background-color: #191919;
     transition: top 0.3s;
-}
 
-.navbar-brand {
-    padding-left: 15px;
-}
+    &-brand {
+        padding-left: 15px;
+        color: azure;
+    }
 
-.navbar-brand {
-    color: azure;
-}
+    &-brand:hover {
+        background-color: transparent;
+        color: burlywood;
+        transition: 0.5s;
+    }
 
-.navbar-brand:hover {
-    background-color: transparent;
-    color: antiquewhite;
-    transition: 1s;
-}
+    &-toggler {
+        border-color: azure;
+        background-color: azure;
+    }
 
-.navbar-toggler {
-    border-color: azure;
-}
-
-.navbar-toggler-icon {
-    border-color: azure;
-}
-
-.nav-list {
-    color: azure;
-    display: flex;
-    font-size: 21px;
-    list-style-type: none;
-    gap: 70px;
-}
+    &-list {
+        color: azure;
+        display: flex;
+        font-size: 21px;
+        list-style-type: none;
+        gap: 70px;
+    }
 
 
-.link {
-    color: azure;
-    text-decoration: none;
-    text-decoration: none;
+    .link {
+        color: azure;
+        text-decoration: none;
+        text-decoration: none;
+    }
+
 }

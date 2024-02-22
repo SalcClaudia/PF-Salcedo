@@ -1,9 +1,39 @@
+/*footer*/
+
 footer {
+    display: flex;
+    justify-content: space-between;
     background-color: #191919;
-    height: 50px;
+    color: azure;
+    height: 300px;
+    width: 100%;
 }
 
-footer a {
-    align-items: center;
-    text-align: center;
+.footer-title {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+.footer-links,
+.footer-socials,
+.footer-contact {
+    color: azure;
+    padding-top: 50px;
+    margin-right: 50px;
+}
+
+.footer-links,
+.footer-socials,
+.footer-contact, a{
+list-style-type: none;
+text-decoration: none;
+color: azure;
+}
+
+.footer-links,
+.footer-socials,
+.footer-contact, a:hover{
+color: burlywood;
+transition: 0.5s;
 }
