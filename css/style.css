@@ -45,13 +45,6 @@ body {
     background-color: azure;
 }
 
-
-@media (min-width: 768px) {
-    .navbar-toggler {
-        display: block;
-    }
-}
-
 .nav-list {
     color: azure;
     display: flex;
@@ -66,6 +59,14 @@ body {
     text-decoration: none;
     text-decoration: none;
 }
+
+
+@media (min-width: 768px) {
+    .navbar-toggler {
+        display: block;
+    }
+}
+
 
 /*index*/
 
