@@ -4,11 +4,11 @@
 
 .container-title {
     text-align: center;
-    color: #191919;
+    color: $mainColor;
     padding-top: 150px;
     padding-bottom: 60px;
 
-    &-title h1 {
+    h1 {
         text-transform: uppercase;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
@@ -17,7 +17,7 @@
 .container-md {
     display: flex;
     align-items: center;
-    background-color: azure;
+    background-color: $secondaryColor;
     max-width: 70%;
     max-height: 55%;
     border-radius: 10px;
@@ -39,12 +39,12 @@
     }
 
     .btn {
-        background-color: #191919;
-        color: azure;
+        background-color: $mainColor;
+        color: $secondaryColor;
 
         &:hover {
             background-color: burlywood;
-            color: #191919;
+            color: $mainColor;
             transition: 0.5s;
             border-color: none;
         }
@@ -78,7 +78,7 @@
     margin-left: 50px;
     margin-bottom: 50px;
     overflow: hidden;
-    border: solid #191919 5px;
+    border: solid $mainColor 5px;
     border-radius: 10px;
 
     &-index iframe {

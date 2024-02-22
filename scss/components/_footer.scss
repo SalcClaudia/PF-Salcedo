@@ -8,27 +8,26 @@ footer {
     height: 300px;
     width: 100%;
 
-    &-title {
+    .footer-title {
         padding-left: 50px;
         padding-top: 50px;
     }
 
-    &-links,
-    &socials,
-    &-contact {
+    .footer-links,
+    .footer-socials,
+    .footer-contact {
         color: azure;
         padding-top: 50px;
         margin-right: 50px;
-        list-style-type: none;
-        text-decoration: none;
-        color: azure;
     }
 
-    &-links,
-    &-socials,
-    &-contact,
+    .footer-links,
+    .footer-socials,
+    .footer-contact,
     a:hover {
         color: burlywood;
         transition: 0.5s;
     }
+
+
 }
