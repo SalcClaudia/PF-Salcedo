@@ -38,17 +38,6 @@
         padding-right: 20px;
     }
 
-    .btn {
-        background-color: $mainColor;
-        color: $secondaryColor;
-
-        &:hover {
-            background-color: burlywood;
-            color: $mainColor;
-            transition: 0.5s;
-            border-color: none;
-        }
-    }
 }
 
 
