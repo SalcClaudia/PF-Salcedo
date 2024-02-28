@@ -40,12 +40,17 @@
 
 }
 
+.index-h2{
+    display: flex;
+    padding-right: 20px;
+}
 
-.index-h2, .iframe-index{
+.iframe-index{
    display: inline-block;
    vertical-align: top;
    margin-right: 20px;
 }
+
 
 .palm_container {
     width: 100%;
