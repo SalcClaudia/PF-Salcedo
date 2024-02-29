@@ -2,3 +2,23 @@
     padding-top: 12%;
     padding-bottom: 13%;
 }
+
+.form-label{
+    text-decoration: underline;
+}
+
+.container-call{
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 150px;
+    background-color: $secondaryColor;
+}
+

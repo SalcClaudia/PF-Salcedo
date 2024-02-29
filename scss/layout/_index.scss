@@ -9,6 +9,7 @@
     padding-bottom: 60px;
 
     h1 {
+        font-size: 4rem;
         text-transform: uppercase;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
@@ -24,31 +25,20 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     padding-bottom: 40px;
 
-    .custom-row1 {
-        display: flex;
-        align-items: center;
-    }
-
-    .col-md-8 img {
-        padding-top: 45px;
-        padding-left: 20px;
-    }
-
-    .col-md-4 p h2 {
+    .col-md-4 {
+        padding-top: 5%;
         padding-right: 20px;
     }
 
 }
 
-.index-h2{
+.index-h2 {
     display: flex;
-    padding-right: 20px;
-}
 
-.iframe-index{
-   display: inline-block;
-   vertical-align: top;
-   margin-right: 20px;
+    .google-title {
+        align-items: center;
+        text-align: center;
+    }
 }
 
 
@@ -65,6 +55,7 @@
     }
 }
 
+
 .iframe-index {
     width: 40%;
     height: 300px;
@@ -72,14 +63,21 @@
     margin-left: 50px;
     margin-bottom: 50px;
     overflow: hidden;
-    border: solid $mainColor 5px;
     border-radius: 10px;
 
-    &-index iframe {
+    iframe {
         object-fit: cover;
         width: 100%;
-    
+
     }
+}
+
+.back-color {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 350px;
+    background-color: $secondaryColor;
 }
 
 /*WhatsApp icon*/

@@ -112,6 +112,7 @@ footer a:hover {
   padding-bottom: 60px;
 }
 .container-title h1 {
+  font-size: 4rem;
   text-transform: uppercase;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -126,27 +127,17 @@ footer a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   padding-bottom: 40px;
 }
-.container-md .custom-row1 {
-  display: flex;
-  align-items: center;
-}
-.container-md .col-md-8 img {
-  padding-top: 45px;
-  padding-left: 20px;
-}
-.container-md .col-md-4 p h2 {
+.container-md .col-md-4 {
+  padding-top: 5%;
   padding-right: 20px;
 }
 
 .index-h2 {
   display: flex;
-  padding-right: 20px;
 }
-
-.iframe-index {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 20px;
+.index-h2 .google-title {
+  align-items: center;
+  text-align: center;
 }
 
 .palm_container {
@@ -168,12 +159,19 @@ footer a:hover {
   margin-left: 50px;
   margin-bottom: 50px;
   overflow: hidden;
-  border: solid #191919 5px;
   border-radius: 10px;
 }
-.iframe-index-index iframe {
+.iframe-index iframe {
   object-fit: cover;
   width: 100%;
+}
+
+.back-color {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 350px;
+  background-color: azure;
 }
 
 /*WhatsApp icon*/
@@ -189,6 +187,24 @@ footer a:hover {
 .custom-padding-top {
   padding-top: 12%;
   padding-bottom: 13%;
+}
+
+.form-label {
+  text-decoration: underline;
+}
+
+.container-call {
+  display: flex;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 150px;
+  background-color: azure;
 }
 
 .container-h1 {
@@ -315,6 +331,16 @@ footer a:hover {
     width: 100%;
   }
 }
+@media (max-width: 1000px) {
+  .col-md-8 img {
+    margin-top: 0;
+  }
+}
+@media (max-width: 700px) {
+  .col-md-4 p h2 {
+    margin-top: 10px;
+  }
+}
 /*footer mediaquerie*/
 @media (max-width: 768px) {
   .footer-class {
@@ -323,10 +349,13 @@ footer a:hover {
   }
 }
 @media (max-width: 800px) {
-  .iframe {
+  .iframe-index {
     width: 100%;
     margin-top: 20px;
     margin-left: 0;
+  }
+  iframe {
+    width: 100%;
   }
 }
 
