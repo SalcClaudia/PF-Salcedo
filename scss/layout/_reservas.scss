@@ -1,24 +1,29 @@
 .custom-padding-top {
     padding-top: 12%;
-    padding-bottom: 13%;
+    padding-bottom: 6%;
 }
 
-.form-label{
+.form-label {
     text-decoration: underline;
 }
 
-.container-call{
+.container-call {
     display: flex;
     text-align: center;
-    padding-top: 30px;
-
+    background-color: #191919;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    
 }
 
 .call-to-action {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 100%;
     height: 150px;
+    flex-direction: column;
     background-color: $secondaryColor;
-}
+    border-radius: 10px;
+    padding-top: 15px;
 
+}
