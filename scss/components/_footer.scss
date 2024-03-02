@@ -3,8 +3,8 @@
 footer {
     display: flex;
     justify-content: space-between;
-    background-color: #191919;
-    color: azure;
+    background-color: $mainColor;
+    color: $secondaryColor;
     height: 300px;
     width: 100%;
 
@@ -16,7 +16,7 @@ footer {
     .footer-links,
     .footer-socials,
     .footer-contact {
-        color: azure;
+        color: $secondaryColor;
         padding-top: 50px;
         margin-right: 50px;
     }
