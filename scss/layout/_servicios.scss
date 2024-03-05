@@ -12,7 +12,7 @@
 .servi {
     width: 80%;
     height: 300px;
-    border: 6px outset #191919;
+    border: 6px outset $mainColor;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@
 
 .servi h2 {
     z-index: 3;
-    color: azure;
+    color: $secondaryColor;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
     }
 
