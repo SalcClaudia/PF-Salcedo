@@ -40,89 +40,115 @@
     <title>Servicios</title>
 </head>
 
-<header>
-    <!--navbar-->
-    <nav class="navbar fixed-top">
-        <section class="container-fluid p-2">
-            <a class="navbar-brand fs-3 fw-bold" href="../index.html">Posada Las Tinajas</a>
-            <ul class="nav-list offcanvas-xl">
-                <li><a href="reservas.html" class="link fw-bold">Reservas</a></li>
-                <li><a href="servicios.html" class="link fw-bold">Servicios</a></li>
-                <li><a href="contactos.html" class="link fw-bold">Contactos</a></li>
-                <li><a href="galeria.html" class="link fw-bold">Galería</a></li>
-            </ul>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <section class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <section class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </section>
-                <section class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="pages/reservas.html">Reservas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="pages/servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="pages/contactos.html">Contactos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="pages/galeria.html">Galería</a>
-                        </li>
-                    </ul>
+<body>
+    <header>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <section class="container-fluid p-2">
+                <a class="navbar-brand fs-3 fw-bold" href="index.html">Posada Las Tinajas</a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <section class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <section class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </section>
+                    <section class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../pages/reservas.html">Reservas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../pages/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../pages/contactos.html">Contactos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../pages/galeria.html">Galería</a>
+                            </li>
+                        </ul>
+                    </section>
                 </section>
             </section>
-        </section>
-    </nav>
-</header>
+        </nav>
+    </header>
 
-<body>
     <main>
         <section class="container-h1">
             <h1 class="servicios-h1">Disfruta de nuestros servicios</h1>
         </section>
 
         <section class="container_servi">
-            <section class="servi container-fluid">
-                <h2 class="servi-title">Masajes Relajantes</h2>
+            <article class="servi container-fluid">
+                <h2 class="servi-title"><a href="#masajesrelajantes">Masajes Relajantes</a></h2>
                 <img src="../assets/Images/massage.jpg" alt="chica recibiendo masaje">
                 <!-- <p>Sumérgete en un oasis de tranquilidad; deja que nuestros terapeutas expertos deshagan cada nudo de
                     tensión mientras te envuelves en la serenidad de nuestras instalaciones</p>-->
-            </section>
+            </article>
 
-            <section class="servi">
-                <h2 class="servi-title">Desayuno Incluido</h2>
+            <article class="servi">
+                <h2 class="servi-title"><a href="#desayunoincluido">Desayuno Incluido</a></h2>
                 <img src="../assets/Images/breakfast.jpg" alt="desayuno">
                 <!-- <p>Despierta con el aroma irresistible de un desayuno que despierta todos tus sentidos. No solo te
                     hospedas,te mimamos desde la primera luz del día. </p>-->
-            </section>
+            </article>
 
-            <section class="servi">
-                <h2 class="servi-title">Piscina 24 Horas</h2>
+            <article class="servi">
+                <h2 class="servi-title"><a href="#piscina24horas">Piscina 24 Horas</a></h2>
                 <img src="../assets/Images/pool.jpg" alt="orilla de piscina">
                 <!--<p>Sumérgete cuando quieras, sin restricciones de tiempo. En Las Tinajas, nuestra piscina está abierta
                     las 24 horas</p>-->
-            </section>
+            </article>
 
-            <section class="servi">
-                <h2 class="servi-title">Restaurante/Bar</h2>
+            <article class="servi">
+                <h2 class="servi-title"><a href="#restaurante/bar">Restaurante/Bar</a></h2>
                 <img src="../assets/Images/restaurant.jpg" alt="mesero con bebidas">
                 <!--<p>Nuestro restaurante/bar se convierte en el corazón de tu estancia. Descubre sabores auténticos
                     preparados con pasión y disfruta de una selección de bebidas exquisitas en un ambiente acogedor.</p>-->
-            </section>
+            </article>
+        </section>
 
-            <section>
-                <a href="https://wa.me/1234567890" target="_blank" class="whats">
-                    <img src="../assets/Images/Whatsapp.png" alt="WhatsApp" class="whats">
-                </a>
-            </section>
+        <section class="info-service">
+            <div class="info_service">
+                <article class="info" id="masajesrelajantes">
+                    <h3>Masajes Relajantes</h3>
+                    <p>Sumérgete en un oasis de tranquilidad; deja que nuestros terapeutas expertos deshagan cada nudo
+                        de
+                        tensión mientras te envuelves en la serenidad de nuestras instalaciones</p>
+                </article>
 
+                <article class="info" id="desayunoincluido">
+                    <h3>Desayuno Incluido</h3>
+                    <p>Despierta con el aroma irresistible de un desayuno que despierta todos tus sentidos. No solo te
+                        hospedas,te mimamos desde la primera luz del día.</p>
+                </article>
+
+                <article class="info" id="piscina24horas">
+                    <h3>Piscina 24 Horas</h3>
+                    <p>Sumérgete cuando quieras, sin restricciones de tiempo. En Las Tinajas, nuestra piscina está
+                        abierta
+                        las 24 horas</p>
+                </article>
+
+                <article class="info" id="restaurante/bar">
+                    <h3>Restaurante/Bar</h3>
+                    <p>Nuestro restaurante/bar se convierte en el corazón de tu estancia. Descubre sabores auténticos
+                        preparados con pasión y disfruta de una selección de bebidas exquisitas en un ambiente acogedor.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section>
+            <a href="https://wa.me/1234567890" target="_blank" class="whats">
+                <img src="../assets/Images/Whatsapp.png" alt="WhatsApp" class="whats">
+            </a>
         </section>
     </main>
 

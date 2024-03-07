@@ -9,9 +9,26 @@
     padding-bottom: 4.5%;
 
     h1 {
-        font-size: 3.5rem;
+        font-size: 5.5rem;
         text-transform: uppercase;
+        text-transform: bolder;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+        @include sm {
+            font-size: 3rem;
+        }
+
+        @include md {
+            font-size: 3.2rem;
+        }
+
+        @include lg {
+            font-size: 4rem;
+        }
+
+        @include xl {
+            font-size: 4.8rem;
+        }
     }
 }
 
@@ -20,11 +37,28 @@
     justify-items: center;
     justify-content: center;
     width: 100%;
+    padding: 10px;
 
     .container-card {
         width: 70%;
         height: 55%;
         text-align: center;
+
+        @include sm {
+            width: 100%;
+        }
+
+        @include md {
+            width: 90%;
+        }
+
+        @include lg {
+            width: 90%;
+        }
+
+        @include xl {
+            width: 93%;
+        }
 
     }
 
@@ -34,7 +68,7 @@
         box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
         border: 10px solid $secondaryColor;
 
-        .card-title{
+        .card-title {
             font-size: 2.5rem;
         }
 
@@ -55,10 +89,9 @@
 .palm_container {
     position: relative;
     width: 100%;
-    height: 310px;
+    height: auto;
     padding-top: 5%;
     overflow: hidden;
-    padding-top: 40px;
 
     img {
         display: block;
@@ -75,9 +108,25 @@
     transform: translate(-50%, -50%);
     color: $secondaryColor;
     text-align: center;
-    font-size: 13vh;
+    font-size: 150px;
     text-transform: uppercase;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+    @include sm {
+        font-size: 50px;
+    }
+
+    @include md {
+        font-size: 70px;
+    }
+
+    @include lg {
+        font-size: 100px;
+    }
+
+    @include xl {
+        font-size: 120px;
+    }
 }
 
 .about-us-container {
@@ -85,43 +134,32 @@
     justify-content: center;
     justify-items: center;
     text-align: center;
+    margin-bottom: 30px;
 
     .about-us {
         width: 100%;
         height: 50%;
         background-color: $secondaryColor;
-    
-        .about-us-text{
-            padding-top: 20px;
+
+        .about-us-text {
+            padding: 30px 5px;
         }
     }
-    
+
 }
 
 
-/*.iframe-index {
-    width: 40%;
-    height: 300px;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    overflow: hidden;
-    border-radius: 10px;
-
-    iframe {
-        object-fit: cover;
-        width: 100%;
-
-    }
-}
-
-.back-color {
+.iframe-index {
     display: flex;
-    align-items: center;
-    width: 50%;
-    height: 350px;
-    background-color: $secondaryColor;
-} */
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+iframe {
+    width: 90%;
+
+}
 
 /*WhatsApp icon*/
 

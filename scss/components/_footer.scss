@@ -1,24 +1,31 @@
 /*footer*/
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    justify-items: center;
     background-color: $mainColor;
     color: $secondaryColor;
-    height: 300px;
     width: 100%;
+    gap: 20px;
+    padding: 20px 10px;
 
-    .footer-title {
-        padding-left: 50px;
-        padding-top: 50px;
+    @include sm {
+        flex-direction: column;
     }
+
+    @include md {
+        flex-direction: column;
+    }
+
+
 
     .footer-links,
     .footer-socials,
     .footer-contact {
         color: $secondaryColor;
-        padding-top: 50px;
-        margin-right: 50px;
+        padding: 0;
     }
 
     .footer-links,

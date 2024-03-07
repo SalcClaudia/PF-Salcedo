@@ -2,7 +2,7 @@
 .navbar {
     background-color: $mainColor;
     transition: top 0.3s;
-
+   
     &-brand {
         padding-left: 15px;
         color: $secondaryColor;
@@ -20,13 +20,12 @@
         background-color: $secondaryColor;
     }
 
-    .nav-list {
+    .nav-link {
         color: $secondaryColor;
-        display: flex;
-        font-size: 21px;
-        list-style-type: none;
-        gap: 70px;
-        padding-right: 50px;
+        font-size: 23px;
+        font-family: $mainFont;
+        padding-right: 15px;
+
     }
 
 
@@ -36,4 +35,19 @@
         text-decoration: none;
     }
 
+}
+
+.container-fluid{
+    @include sm {
+        flex-direction: column;
+    }
+}
+
+.offcanvas-body {
+    background-color: $mainColor;
+}
+
+.offcanvas{
+    background-color: $secondaryColor;
+    color: $mainColor;
 }
