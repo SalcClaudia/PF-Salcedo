@@ -1,7 +1,6 @@
-
 /*navbar mediaquerie*/
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 768px) {
     .navbar-toggler {
         display: block;
     }
@@ -13,7 +12,6 @@
     }
 }
 
-
 /*index mediaquerie*/
 
 @media (min-width: 768px) {
@@ -22,30 +20,19 @@
     }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 940px) {
     .container-title h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 
-/*@media (max-width: 768px) {
-    .container-md {
+
+@media (max-width: 768px) {
+    .container_general {
         width: 100%;
     }
 }
 
-@media (max-width: 1000px) {
-    .col-md-8 img {
-        margin-top: 0;
-    }
-}
-
-@media (max-width: 700px) {
-    .col-md-4 p h2 {
-        margin-top: 10px;
-
-    }
-}*/
 
 @media (max-width: 800px) {
     .iframe-index {
@@ -69,14 +56,12 @@
 
 }
 
-    /*footer mediaquerie*/
+/*footer mediaquerie*/
 
-    @media (max-width: 768px) {
-        .footer-class {
-            flex-direction: column;
-            align-items: center;
-        }
-
+@media (max-width: 768px) {
+    .footer-class {
+        flex-direction: column;
+        align-items: center;
     }
 
-
+}

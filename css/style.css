@@ -109,8 +109,8 @@ footer a:hover {
 .container-title {
   text-align: center;
   color: #191919;
-  padding-top: 150px;
-  padding-bottom: 60px;
+  padding-top: 5%;
+  padding-bottom: 4.5%;
 }
 .container-title h1 {
   font-size: 3.5rem;
@@ -118,41 +118,27 @@ footer a:hover {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.container-general {
+.container_general {
   display: flex;
   justify-items: center;
-  align-content: center;
+  justify-content: center;
   width: 100%;
 }
-
-.container-card {
+.container_general .container-card {
   width: 70%;
   height: 55%;
+  text-align: center;
 }
-
-.card {
-  max-width: 100%;
-  max-height: 100%;
+.container_general .card {
+  object-fit: cover;
   background-color: azure;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 10px solid azure;
+}
+.container_general .card .card-title {
+  font-size: 2.5rem;
 }
 
-/*.container-md {
-    display: flex;
-    align-items: center;
-    background-color: $secondaryColor;
-    max-width: 70%;
-    max-height: 55%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    padding-bottom: 40px;
-
-    .col-md-4 {
-        padding-top: 5%;
-        padding-right: 20px;
-    }
-
-}*/
 .index-h2 {
   display: flex;
 }
@@ -182,15 +168,24 @@ footer a:hover {
   transform: translate(-50%, -50%);
   color: azure;
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 13vh;
   text-transform: uppercase;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
-.about-us {
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.about-us-container .about-us {
   width: 100%;
-  height: 50px;
-  padding-bottom: 50px;
+  height: 50%;
+  background-color: azure;
+}
+.about-us-container .about-us .about-us-text {
+  padding-top: 20px;
 }
 
 /*.iframe-index {
@@ -356,7 +351,7 @@ footer a:hover {
 }
 
 /*navbar mediaquerie*/
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 768px) {
   .navbar-toggler {
     display: block;
   }
@@ -372,29 +367,16 @@ footer a:hover {
     font-size: 18px;
   }
 }
-@media (max-width: 930px) {
+@media (max-width: 940px) {
   .container-title h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
-/*@media (max-width: 768px) {
-    .container-md {
-        width: 100%;
-    }
+@media (max-width: 768px) {
+  .container_general {
+    width: 100%;
+  }
 }
-
-@media (max-width: 1000px) {
-    .col-md-8 img {
-        margin-top: 0;
-    }
-}
-
-@media (max-width: 700px) {
-    .col-md-4 p h2 {
-        margin-top: 10px;
-
-    }
-}*/
 @media (max-width: 800px) {
   .iframe-index {
     width: 100%;
