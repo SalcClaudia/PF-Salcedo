@@ -2,7 +2,7 @@
 .navbar {
     background-color: $mainColor;
     transition: top 0.3s;
-   
+
     &-brand {
         padding-left: 15px;
         color: $secondaryColor;
@@ -22,10 +22,10 @@
 
     .nav-link {
         color: $secondaryColor;
-        font-size: 23px;
+        font-size: 22px;
         font-family: $mainFont;
-        padding-right: 15px;
-
+        margin-right: 30px;
+        font-weight: bold;
     }
 
 
@@ -37,17 +37,11 @@
 
 }
 
-.container-fluid{
-    @include sm {
-        flex-direction: column;
-    }
-}
-
 .offcanvas-body {
     background-color: $mainColor;
 }
 
-.offcanvas{
+.offcanvas {
     background-color: $secondaryColor;
     color: $mainColor;
 }

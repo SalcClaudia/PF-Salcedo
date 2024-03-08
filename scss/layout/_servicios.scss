@@ -1,8 +1,16 @@
+.container-h1{
+    padding-bottom: 20px;
+}
+
 .servicios-h1 {
     align-items: center;
     text-align: center;
     background-color: rgba(240, 255, 255, 0.5);
     padding: 30px;
+
+    & p{
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -28,6 +36,14 @@
     gap: 10px;
     margin: 30px auto;
 
+    @include sm {
+        grid-template-columns: 1fr;
+    }
+
+    @include md {
+        grid-template-columns: 1fr;
+    }
+
     .servi-title {
         grid-column: span 4;
     }
@@ -46,7 +62,7 @@
     position: absolute;
 }
 
-.info-service{
+.info-service {
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -54,16 +70,32 @@
     margin-bottom: 30px;
 }
 
-.info_service{
+.info_service {
     display: flex;
     flex-direction: column;
     gap: 20px;
 
+    @include sm {
+        margin: 10px 10px;
+    }
+
+    @include md {
+        margin: 10px 10px;
+    }
+
+    @include lg {
+        margin: 10px 10px;
+    }
+
+    @include xl {
+        margin: 10px 10px;
+    }
+
 }
 
-.info{
+.info {
     padding: 20px 10px;
     background-color: $secondaryColor;
-    border-radius: 20px;
+    border-radius: 16px;
     border: 2px solid grey;
 }
